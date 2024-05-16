@@ -1,3 +1,4 @@
+import swal from "sweetalert";
 
 const DonationItemCard = ({ donation }) => {
     const { id, picture, title, category, card_bg_color, price, description } = donation || {};
@@ -11,14 +12,16 @@ const DonationItemCard = ({ donation }) => {
         if (!donationCards) {
             addToDonationArray.push(donation);
             localStorage.setItem('donations', JSON.stringify(addToDonationArray));
+            swal("Good Job!", "Your Donation is added successfully", "success");
         } else {
 
             const isExist = donationCards.find(donation => donation.id === id);
             if (!isExist) {
                 addToDonationArray.push(...donationCards, donation);
                 localStorage.setItem('donations', JSON.stringify(addToDonationArray))
+                swal("Good Job!", "Your Donation is added successfully", "success");
             } else{
-                console.log("alraadey added")
+                swal("Error!", "No Duplicate", "error");
             }
 
 
