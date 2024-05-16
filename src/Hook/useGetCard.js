@@ -1,16 +1,16 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
-// const useGetCard = () => {
-//     const [data, setData] = useState();
+const useGetCard = () => {
+    const [data, setData] = useState([]);
 
-//     useEffect(() =>{
-//         fetch('/card.json')
-//         .then(res => res.json())
-//         .then(data => setData())
-//     },[])
+    useEffect(() =>{
+        fetch('/card.json')
+        .then(res => res.json())
+        .then(data => setData(data))
+    },[])
 
-//     return [data];
-// };
+    return [data];
+};
 
-// export default useGetCard;
+export default useGetCard;
