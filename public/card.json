@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/CsjsZvW/Rectangle-4284.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Ensuring access to clean water for children is crucial for their health and well-being. With this product, we aim to provide sustainable solutions to communities in need, promoting good health and hygiene practices. Your support can make a significant difference in improving the lives of children and their families.",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/f2p0wnR/Rectangle-4284-1.png",
+        "title": "Education",
+        "category": "Good Education",
+        "category_bg_color": "#ffc4c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "Access to quality education is essential for the development of individuals and societies. By supporting this product, you contribute to providing educational resources, infrastructure, and opportunities for children and youth. Together, we can empower individuals and build a brighter future through education.",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/R9YFBZX/Rectangle-4284-2.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#d4ecc2",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#79c23f",
+        "description": "Join us in our mission to support communities in need by contributing to our used clothing drive. Your donations provide warmth, protection, and dignity to individuals facing economic hardship. Together, we can make a positive impact and help create a more equitable society.",
+        "price": 39.99
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/WzyP7XC/Rectangle-4284-3.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#feeae4",
+        "text_button_bg_color": "#fdd2c4",
+        "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
+        "price": 49.99
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/WzyP7XC/Rectangle-4284-3.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#feeae4",
+        "text_button_bg_color": "#fdd2c4",
+        "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
+        "price": 49.99
+    }, 
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/R9YFBZX/Rectangle-4284-2.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#d4ecc2",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#79c23f",
+        "description": "Join us in our mission to support communities in need by contributing to our used clothing drive. Your donations provide warmth, protection, and dignity to individuals facing economic hardship. Together, we can make a positive impact and help create a more equitable society.",
+        "price": 39.99
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/f2p0wnR/Rectangle-4284-1.png",
+        "title": "Education",
+        "category": "Good Education",
+        "category_bg_color": "#ffc4c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "Access to quality education is essential for the development of individuals and societies. By supporting this product, you contribute to providing educational resources, infrastructure, and opportunities for children and youth. Together, we can empower individuals and build a brighter future through education.",
+        "price": 29.99
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/CsjsZvW/Rectangle-4284.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Ensuring access to clean water for children is crucial for their health and well-being. With this product, we aim to provide sustainable solutions to communities in need, promoting good health and hygiene practices. Your support can make a significant difference in improving the lives of children and their families.",
+        "price": 19.99
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/CsjsZvW/Rectangle-4284.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Ensuring access to clean water for children is crucial for their health and well-being. With this product, we aim to provide sustainable solutions to communities in need, promoting good health and hygiene practices. Your support can make a significant difference in improving the lives of children and their families.",
+        "price": 19.99
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/f2p0wnR/Rectangle-4284-1.png",
+        "title": "Education",
+        "category": "Good Education",
+        "category_bg_color": "#ffc4c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "Access to quality education is essential for the development of individuals and societies. By supporting this product, you contribute to providing educational resources, infrastructure, and opportunities for children and youth. Together, we can empower individuals and build a brighter future through education.",
+        "price": 29.99
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/R9YFBZX/Rectangle-4284-2.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#d4ecc2",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#79c23f",
+        "description": "Join us in our mission to support communities in need by contributing to our used clothing drive. Your donations provide warmth, protection, and dignity to individuals facing economic hardship. Together, we can make a positive impact and help create a more equitable society.",
+        "price": 39.99
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/WzyP7XC/Rectangle-4284-3.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "#feeae4",
+        "text_button_bg_color": "#fdd2c4",
+        "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
+        "price": 49.99
+    }
+]
