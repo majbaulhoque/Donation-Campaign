@@ -5,6 +5,7 @@ import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
 import ErrorElement from "../Pages/Error Element/ErrorElement";
 import DonationItem from "../Pages/Donation Item/DonationItem";
+import DonationItemCard from "../Pages/Donation Item/DonationItemCard";
 
 
 
@@ -32,6 +33,10 @@ const  myCreatedRoute = createBrowserRouter([
                 element: <DonationItem></DonationItem>,
                 loader: () => fetch('/card.json')
             },
+            {
+                path: '/viewDetails',
+                element: <DonationItemCard></DonationItemCard>
+            }
         ],
     },
 ]);

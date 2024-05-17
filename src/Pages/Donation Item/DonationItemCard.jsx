@@ -23,12 +23,7 @@ const DonationItemCard = ({ donation }) => {
             } else{
                 swal("Error!", "No Duplicate", "error");
             }
-
-
-
         }
-
-
     }
 
     return (
