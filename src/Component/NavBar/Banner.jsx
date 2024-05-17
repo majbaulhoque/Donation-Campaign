@@ -1,5 +1,3 @@
-
-
 const Banner = () => {
     return (
         <div>
