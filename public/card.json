@@ -39,7 +39,7 @@
         "category": "Better Food for Everyone",
         "category_bg_color": "#F87147",
         "card_bg_color": "#feeae4",
-        "text_button_bg_color": "#fdd2c4",
+        "text_button_bg_color": "#F87147",
         "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
         "price": 49.99
     },
@@ -50,7 +50,7 @@
         "category": "Better Food for Everyone",
         "category_bg_color": "#F87147",
         "card_bg_color": "#feeae4",
-        "text_button_bg_color": "#fdd2c4",
+        "text_button_bg_color": "#F87147",
         "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
         "price": 49.99
     }, 
@@ -127,7 +127,7 @@
         "category": "Better Food for Everyone",
         "category_bg_color": "#F87147",
         "card_bg_color": "#feeae4",
-        "text_button_bg_color": "#fdd2c4",
+        "text_button_bg_color": "#F87147",
         "description": "Access to nutritious and sufficient food is a fundamental human right. With this product, we strive to address food insecurity and promote sustainable food systems. Your support enables us to provide nourishment and hope to individuals and families, ensuring no one goes hungry.",
         "price": 49.99
     }

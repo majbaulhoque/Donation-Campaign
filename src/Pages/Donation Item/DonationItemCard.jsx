@@ -20,27 +20,24 @@ const DonationItemCard = ({ donation }) => {
                 addToDonationArray.push(...donationCards, donation);
                 localStorage.setItem('donations', JSON.stringify(addToDonationArray))
                 swal("Good Job!", "Your Donation is added successfully", "success");
-            } else{
+            } else {
                 swal("Error!", "No Duplicate", "error");
             }
         }
     }
 
     return (
-        <div className="flex  justify-center h-screen">
-            <div>
-                <div className="items-center text-center">
-                    <img className="w-[800px] h-[500px] relative" src={picture} alt="" />
-                    <button onClick={handleAddToDonate} className=" px-4 py-1 bg-[#ff444a] absolute -mt-12 -ml-96">Donate ${price}</button>
-                </div>
-                <div className="relative -mt-14 ml-4">
-
-                </div>
-                <div>
-
+        <div className="max-w-full mx-auto p-4">
+            <div className="relative text-center">
+                <img className="w-full lg:w-[600px]  rounded-t-lg mx-auto" src={picture} alt={title} />
+                <button onClick={handleAddToDonate} className="px-4 py-2 bg-[#ff444a] lg:absolute bottom-4 lg:ml-[-285px] lg:m-52 mt-4 ml-[-170px] text-white font-bold rounded ">
+                    Donate ${price}
+                </button>
+                <div className="p-4 lg:text-left text-justify lg:w-[600px] lg:ml-80">
+                    <p className="text-xl font-bold py-2 md:py-4">{category}</p>
+                    <p className="text-sm md:text-base">{description}</p>
                 </div>
             </div>
-
         </div>
     );
 };
