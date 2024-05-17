@@ -9,6 +9,8 @@ const Donation = () => {
     const [noFound, setNoFound] = useState(false)
     const [isShow, setIsShow] = useState(false)
 
+    const totalCards = 12;
+
     useEffect(() => {
         const donationCards = JSON.parse(localStorage.getItem('donations'));
         if (donationCards) {
@@ -23,12 +25,17 @@ const Donation = () => {
         setDonation([]),
             setNoFound("No Data Found !!!")
     }
-    console.log(isShow)
+
+    useEffect(() => {
+        // Store the total and donated cards in local storage
+        localStorage.setItem('totalCards', totalCards);
+        localStorage.setItem('donatedCards', donation.length);
+    }, [donation]);
+
     return (
         <div>
             {
                 noFound ? <p className="h-[60vh] flex items-center text-center justify-center text-3xl font-bold text-semibold">{noFound}</p> :
-
                     <div>
                         {
                             donation.length > 0 && <button onClick={handleRemove} className="bg-blue-600 text-white px-4 py-1 my-5 block mx-auto">Delete ALL</button>

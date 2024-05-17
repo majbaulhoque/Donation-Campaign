@@ -35,8 +35,8 @@ const  myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/viewDetails',
-                element: <DonationItemCard></DonationItemCard>
-            }
+                element: <DonationItemCard></DonationItemCard>,
+            },
         ],
     },
 ]);
