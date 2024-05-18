@@ -1,7 +1,7 @@
 const Banner = () => {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center h-[60vh] -mt-20">
+            <div className="flex flex-col items-center justify-center h-[60vh] -mt-32 lg:mt-[-600px]">
                 <div className="text-center">
                     <h3 className="text-4xl text-black font-bold">I Grow By Helping People In Need</h3>
                     <div className="flex bg-white items-center justify-center text-center mt-4 shadow-md w-[95%] mx-auto">

@@ -3,6 +3,7 @@ import Logo from './Logo';
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HiX } from "react-icons/hi";
 import { useState } from 'react';
+import Banner from './Banner';
 
 const NavBar = () => {
     const [open, setOpen] = useState(false)
