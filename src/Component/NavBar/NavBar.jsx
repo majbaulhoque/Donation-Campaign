@@ -1,16 +1,29 @@
-
 import { NavLink } from 'react-router-dom';
 import Logo from './Logo';
-import Banner from './Banner';
+import { HiMenuAlt3 } from "react-icons/hi";
+import { HiX } from "react-icons/hi";
+import { useState } from 'react';
 
 const NavBar = () => {
+    const [open, setOpen] = useState(false)
     return (
         <div>
-            <div className="bg-cover bg-center h-[80vh]" style={{backgroundImage: 'url("../../../public/images/Rectangle 4281.png")'}}>
+            <div className="relative">
                 <div className="flex justify-between max-w-7xl mx-auto pt-10">
                     <Logo></Logo>
-                    <nav className="">
-                        <ul className='flex gap-7 text-black font-extrabold'>
+
+                    <nav>
+                        <div className='md:hidden text-3xl mt-3' onClick={() => setOpen(!open)}>
+                            {
+                                open === true ?
+                                    <HiX />
+                                    :
+                                    <HiMenuAlt3 />
+                            }
+                        </div>
+                        <ul className={`flex gap-7 text-black font-extrabold absolute md:static duration-1000
+                        ${open ? 'flex text-base text-center -ml-72 mt-7' : 'hidden'}
+                        `}>
                             <li>
                                 <NavLink to='/' className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "underline text-[#DF3B41] font-bold" : ""
@@ -31,7 +44,6 @@ const NavBar = () => {
                         </ul>
                     </nav>
                 </div>
-                <Banner></Banner>
             </div>
         </div>
     );

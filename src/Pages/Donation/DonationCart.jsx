@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const DonationCart = ({ donation }) => {
-    const { id, picture, title, category, card_bg_color, text_button_bg_color, category_bg_color, price, description } = donation || {};
+    const { id, picture, title, category, card_bg_color, text_button_bg_color, category_bg_color, price } = donation || {};
 
     const navigate = useNavigate();
     const handleViewDetails = () => {

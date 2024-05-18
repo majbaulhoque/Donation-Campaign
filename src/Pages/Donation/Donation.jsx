@@ -38,9 +38,9 @@ const Donation = () => {
                 noFound ? <p className="h-[60vh] flex items-center text-center justify-center text-3xl font-bold text-semibold">{noFound}</p> :
                     <div>
                         {
-                            donation.length > 0 && <button onClick={handleRemove} className="bg-blue-600 text-white px-4 py-1 my-5 block mx-auto">Delete ALL</button>
+                            donation.length > 0 && <button onClick={handleRemove} className="bg-blue-600 text-white px-4 py-1 my-12 block mx-auto">Delete ALL</button>
                         }
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-7xl mx-auto">
                             {
                                 isShow ? donation?.map(donation => <DonationCart key={donation.id} donation={donation}></DonationCart>)
                                 :
@@ -52,7 +52,7 @@ const Donation = () => {
             }
             <div>
                 {
-                    donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="bg-green-600 text-white px-4 py-1 my-5 block mx-auto">{isShow ? 'See Less' : 'See More'}</button>
+                    donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="bg-green-600 text-white px-4 py-1 my-12 block mx-auto ">{isShow ? 'See Less' : 'See More'}</button>
                 }
             </div>
         </div>

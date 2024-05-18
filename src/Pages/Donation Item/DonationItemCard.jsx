@@ -1,7 +1,7 @@
 import swal from "sweetalert";
 
 const DonationItemCard = ({ donation }) => {
-    const { id, picture, title, category, card_bg_color, price, description } = donation || {};
+    const { id, picture, title, category, price, description } = donation || {};
 
     const handleAddToDonate = () => {
 
