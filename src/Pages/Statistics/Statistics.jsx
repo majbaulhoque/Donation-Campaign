@@ -21,7 +21,7 @@ const Statistics = () => {
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '60vh' }}>
-            <div>
+            <div className='mt-20'>
                 <h1 className="text-center text-2xl font-bold my-5">Donation Statistics</h1>
                 <PieChart width={400} height={400}>
                     <Pie

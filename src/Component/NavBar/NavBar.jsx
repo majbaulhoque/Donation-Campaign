@@ -3,7 +3,7 @@ import Logo from './Logo';
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HiX } from "react-icons/hi";
 import { useState } from 'react';
-import Banner from './Banner';
+
 
 const NavBar = () => {
     const [open, setOpen] = useState(false)
@@ -11,19 +11,16 @@ const NavBar = () => {
         <div>
             <div className="relative">
                 <div className="flex justify-between max-w-7xl mx-auto pt-10">
-                    <Logo></Logo>
-
+                    <div className='pl-4'><Logo></Logo></div>
                     <nav>
-                        <div className='md:hidden text-3xl mt-3' onClick={() => setOpen(!open)}>
+                        <div className='text-2xl md:hidden mt-4 px-2' onClick={() =>setOpen(!open)}>
                             {
-                                open === true ?
-                                    <HiX />
-                                    :
-                                    <HiMenuAlt3 />
+                                open === true ? 
+                                <HiX /> : <HiMenuAlt3 />
                             }
                         </div>
-                        <ul className={`flex gap-7 text-black font-extrabold absolute md:static duration-1000
-                        ${open ? 'flex text-base text-center -ml-72 mt-7' : 'hidden'}
+                        <ul className={`flex gap-7 text-black font-extrabold duration-1000 absolute md:static lg:mt-8 lg:px-20
+                        ${open ? 'top-28 -ml-72' : '-top-20'}
                         `}>
                             <li>
                                 <NavLink to='/' className={({ isActive, isPending }) =>
