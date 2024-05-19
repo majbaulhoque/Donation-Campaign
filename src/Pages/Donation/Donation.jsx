@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 import DonationCart from "./DonationCart";
+import { Helmet } from "react-helmet-async";
 
 const Donation = () => {
     const [donation, setDonation] = useState([]);
@@ -34,6 +35,9 @@ const Donation = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Donation Campaign | Donation</title>
+            </Helmet>
             {
                 noFound ? <p className="h-[60vh] flex items-center text-center justify-center text-3xl font-bold text-semibold">{noFound}</p> :
                     <div>
@@ -43,8 +47,8 @@ const Donation = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-7xl mx-auto">
                             {
                                 isShow ? donation?.map(donation => <DonationCart key={donation.id} donation={donation}></DonationCart>)
-                                :
-                                donation?.slice(0,4).map(donation => <DonationCart key={donation.id} donation={donation}></DonationCart>)
+                                    :
+                                    donation?.slice(0, 4).map(donation => <DonationCart key={donation.id} donation={donation}></DonationCart>)
                             }
                         </div>
                     </div>

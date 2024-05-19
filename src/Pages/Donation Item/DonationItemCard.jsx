@@ -27,13 +27,13 @@ const DonationItemCard = ({ donation }) => {
     }
 
     return (
-        <div className="max-w-full mx-auto p-4">
+        <div className="max-w-full mx-auto p-4 mt-16">
             <div className="relative text-center">
                 <img className="w-full lg:w-[600px]  rounded-t-lg mx-auto" src={picture} alt={title} />
-                <button onClick={handleAddToDonate} className="px-4 py-2 bg-[#ff444a] lg:absolute bottom-4 lg:ml-[-285px] lg:m-52 mt-4 ml-[-170px] text-white font-bold rounded ">
+                <button onClick={handleAddToDonate} className="px-4 py-2 bg-[#ff444a] lg:absolute bottom-4 lg:ml-[-285px] lg:m-52 mt-4 ml-[-220px] text-white font-bold rounded ">
                     Donate ${price}
                 </button>
-                <div className="p-4 lg:text-left text-justify lg:w-[600px] lg:ml-80">
+                <div className="p-4 lg:text-left text-justify lg:w-[600px] lg:ml-[450px]">
                     <p className="text-xl font-bold py-2 md:py-4">{category}</p>
                     <p className="text-sm md:text-base">{description}</p>
                 </div>

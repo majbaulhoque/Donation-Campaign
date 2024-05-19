@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 
 const ErrorElement = () => {
@@ -7,7 +8,10 @@ const ErrorElement = () => {
     }
     return (
         <div >
-            <div className=" items-center text-center justify-center h-screen">
+            <Helmet>
+            <title>Error</title>
+            </Helmet>
+            <div className=" items-center text-center justify-center h-screen mt-40">
             <h3 className="text-6xl font-semibold block mr-2">Oops! </h3>
             <h4 className="text-4xl font-semibold"> 404 - PAGE NOT FOUND</h4>
             <br />
